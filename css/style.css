@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+                                 /* header */
+.top-header{
+	min-height: auto;
+	background-color: #660000;
+}
+.logo a{
+	padding: 20px 15px;
+}
+
+.search input[type ='button']{
+	height: 30px;
+	width: 30%;
+	border-radius: 5px;
+	margin-left: 0px;
+	background-color: #660000; 
+	color: white;
+}
+.search input[type ='button']:hover{
+	color: #000;
+}
+.search input[type='text']{
+	border-radius: 5px;
+	height: 30px;
+	width: 68%;
+}
+
+.search{
+	padding: 30px 30px;
+	float: right;
+	width: 80%;
+}
+.search li{
+	padding-right: 8px; 
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	border-right: 1px double #E1E1E1;
+}
+.search li:last-child{
+	border-right: none;
+}
+.search li a{
+	color: #fff;
+}
+.search li a:hover{
+	text-decoration: none;
+	color: #000;
+
+}
+.search ul{
+	margin: 0;
+	padding: 3px ;
+}
+.nav-menu {
+	background-color: #F6F6F6; 
+}
+.nav{
+    margin: 5px;
+}
+.nav ul{
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.nav li a{
+	color:  #660000;
+}
+.nav li a:hover{
+	background-color: inherit;
+	color:  #000; 
+}
+.nav li{
+	font-weight: 600;
+    list-style: none;
+    border-right: 1px double #E1E1E1;
+}
+.nav > ul >li:last-child{
+  margin-right: 0;
+}
+.nav-menu .menu{
+	padding-left: 0;
+}
+                                   /* end  header */
